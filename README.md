@@ -63,7 +63,7 @@ dataset
 ```
 ### 3. Encrypt the dataset (Optional)
 To encrypt the images, you can use the [**Recoverable privacy-preserving Image Classification (RIC)**](https://dl.acm.org/doi/full/10.1145/3653676) module.
-We modified the original RIC module to make the ciphertexts available for model training.
+We modified the original RIC module to make the ciphertexts available for model training. In this step, you need to change the working directory to [RIC](RIC) and follow the instructions in the [README.md](RIC/README.md) file.
 
 ### 4. Start the clients
 
