@@ -27,6 +27,10 @@ dataset
 │   │   ├── image1.jpg
 │   │   ├── image2.jpg
 │   │   └── ...
+│   ├── test
+│   │   ├── image1.jpg
+│   │   ├── image2.jpg
+│   │   └── ...
 │   └── val
 │       ├── image1.jpg
 │       ├── image2.jpg
@@ -35,9 +39,10 @@ dataset
 │   ├── ...
 └── ...
 ```
-### 3. Start the clients
-### 4. Visualization (optional)
-### 5. Evaluation (optional)
+### 3. Encrypt the dataset (Optional)
+
+### 4. Start the clients
+### 5. Evaluation and Visualization
 
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
