@@ -62,9 +62,13 @@ dataset
 └── ...
 ```
 ### 3. Encrypt the dataset (Optional)
+To encrypt the images, you can use the [**Recoverable privacy-preserving Image Classification (RIC)**](https://dl.acm.org/doi/full/10.1145/3653676) module.
+We modified the original RIC module to make the ciphertexts available for model training.
 
 ### 4. Start the clients
+
 ### 5. Evaluation and Visualization
+You can use the code in [visualize.ipynb](visualize.ipynb) to visualize both masked image modeling and class activation mapping.
 
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
