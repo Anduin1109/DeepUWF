@@ -14,7 +14,29 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-### 1. Start the MQTT broker (take EMQX as an example, you can use public brokers to skip this step)
+### 1. Start the MQTT broker (take EMQX as an example)
+#### Use public brokers
+You can use public MQTT brokers for testing purposes. 
+It is not recommended to use them in training or production environments.
+```python
+# broker address
+broker_address = "broker.emqx.io"
+broker_port = 1883
+```
+
+#### Broker running on the local machine
+You can run the EMQX broker on your local machine (Take Ubuntu 20.04 as an example).
+```bash
+# download the EMQX broker
+wget https://www.emqx.io/downloads/broker/v4.3.7/emqx-ubuntu20.04-v4.3.7_amd64.deb
+# install the EMQX broker
+sudo dpkg -i emqx-ubuntu20.04-v4.3.7_amd64.deb
+# start the EMQX broker
+sudo systemctl start emqx
+```
+
+#### Broker running with Docker
+You can also directly run the EMQX broker with Docker.
 ```bash
 docker run -d --name emqx -p 1883:1883 -p 8083:8083 -p 4369:4369 -p 8084:8084 -p 8883:8883 -p 18083:18083 emqx/emqx
 ```
