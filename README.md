@@ -8,10 +8,14 @@ It is implemented in Python using PyTorch, torchattacks, and paho-mqtt.
 ```bash
 git clone git@github.com:Anduin1109/DeepUWF.git
 ```
-### 2. Install the required packages
+### 2. Install the required python packages
 ```bash
 pip install -r requirements.txt
 ```
+
+## Docker
+You can also run the code in a Docker container.
+(To be finished later)
 
 ## Usage
 ### 1. Start the MQTT broker (take EMQX as an example)
